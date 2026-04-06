@@ -2,7 +2,7 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Jannely",
+  firstName: "Jannely Ewald",
   lastName: "Ewadl Flores",
   name: `Jannely`,
   role: "Backend Developer | Full Stack | Marketing",
@@ -60,7 +60,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Backend Developer con enfoque Full Stack y visión de Marketing</>,
   featured: {
     display: true,
     title: (
@@ -76,7 +76,8 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    Desarrolladora especializada en backend con experiencia en Node.js, NestJS, TypeScript y PostgreSQL. <br />
+    Desarrollo APIs robustas, automatizaciones y sistemas escalables, integrando conocimientos Full Stack con una visión estratégica de marketing.
 </>
   ),
 };
