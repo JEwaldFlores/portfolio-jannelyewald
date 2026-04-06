@@ -98,6 +98,7 @@ const about: About = {
       </>
     ),
   },
+  {
 work: {
   display: true,
   title: "Proyectos",
