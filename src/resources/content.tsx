@@ -98,45 +98,36 @@ const about: About = {
       </>
     ),
   },
-  work: {
-    display: true, // set to false to hide this section
-    title: "Proyectos",
-    experiences: [
-     {
-  company: "TrainUp",
-  timeframe: "2024",
-  role: "Backend Developer",
-  achievements: [
-    <>
-      Desarrollo del backend completo de una plataforma para gimnasios, incluyendo gestión de usuarios, planes, clases, reservas y sistema de pagos.
-    </>,
-    <>
-      Implementación de autenticación segura con JWT, integración de pagos y automatizaciones mediante tareas programadas (CRON).
-    </>,
-    <>
-      Diseño de APIs escalables utilizando NestJS, TypeScript y PostgreSQL, optimizando la estructura y rendimiento del sistema.
-    </>,
-  ],
-  images: [
+work: {
+  display: true,
+  title: "Proyectos",
+  experiences: [
     {
-      src: "/images/projects/project-01/cover-01.jpg",
-      alt: "TrainUp Backend",
-      width: 16,
-      height: 9,
+      company: "TrainUp",
+      timeframe: "2024",
+      role: "Backend Developer",
+      achievements: [
+        <>
+          Desarrollo del backend completo de una plataforma para gimnasios, incluyendo gestión de usuarios, planes, clases, reservas y sistema de pagos.
+        </>,
+        <>
+          Implementación de autenticación segura con JWT, integración de pagos y automatizaciones mediante tareas programadas (CRON).
+        </>,
+        <>
+          Diseño de APIs escalables utilizando NestJS, TypeScript y PostgreSQL, optimizando la estructura y rendimiento del sistema.
+        </>,
+      ],
+      images: [
+        {
+          src: "/images/projects/project-01/cover-01.jpg",
+          alt: "TrainUp Backend",
+          width: 16,
+          height: 9,
+        },
+      ],
     },
   ],
-}
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
+},
       {
         company: "Creativ3",
         timeframe: "2018 - 2022",
