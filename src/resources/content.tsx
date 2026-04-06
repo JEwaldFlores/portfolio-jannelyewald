@@ -118,6 +118,7 @@ work: {
           Diseño de APIs escalables utilizando NestJS, TypeScript y PostgreSQL, optimizando la estructura y rendimiento del sistema.
         </>,
       ],
+      href: "https://front-amber-tau.vercel.app/",
       images: [
         {
           src: "/images/projects/project-01/cover-01.jpg",
