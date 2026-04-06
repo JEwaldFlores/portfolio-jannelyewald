@@ -31,7 +31,7 @@ const social: Social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "www.linkedin.com/in/jannely-ewald-flores-21793b387",
+    link: "https://www.linkedin.com/in/jannely-ewald-flores-21793b387/",
     essential: true,
   },
   {
@@ -73,7 +73,7 @@ const home: Home = {
 const about: About = {
   path: "/about",
   label: "About",
-  title: `About – ${person.name}`,
+  title: `Sobre mí – ${person.name}`,
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -91,9 +91,10 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+    Soy Jannely Ewald Flores, desarrolladora especializada en backend enfocada en construir aplicaciones robustas, seguras y escalables. <br /><br />
+    Tengo experiencia trabajando con Node.js, NestJS, TypeScript y PostgreSQL, desarrollando APIs con autenticación, automatizaciones y sistemas de pago. <br /><br />
+    Cuento con conocimientos en desarrollo Full Stack utilizando React y Next.js, lo que me permite comprender y construir soluciones end-to-end. <br /><br />
+    Mi background en marketing me permite integrar una visión estratégica orientada al usuario y al crecimiento, desarrollando soluciones alineadas a objetivos reales.
       </>
     ),
   },
